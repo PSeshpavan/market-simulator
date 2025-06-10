@@ -33,14 +33,20 @@ This project is a simple multi-threaded order matching engine simulation written
 
 ## Example Output
 
+```
 Executed 1 trades for symbol AMZN
-MARKET DATA [MSFT]: Best Bid=100.49, Best Ask=102.61, Spread=2.12
+
+MARKET DATA [MSFT]:  Best Bid=100.49, Best Ask=102.61, Spread=2.12
 MARKET DATA [GOOGL]: Best Bid=100.04, Best Ask=101.17, Spread=1.13
-MARKET DATA [AAPL]: Best Bid=100.82, Best Ask=101.01, Spread=0.19
-MARKET DATA [TSLA]: Best Bid=98.76, Best Ask=99.92, Spread=1.16
-MARKET DATA [AMZN]: Best Bid=97.53, Best Ask=101.04, Spread=3.51
-TRADE EXECUTED: Trade{id='f5fd6a02', symbol='AAPL', price=100.82, qty=36, buyer='TRADER02', seller='TRADER07'} (Total trades: 148, Total volume: 41051)
+MARKET DATA [AAPL]:  Best Bid=100.82, Best Ask=101.01, Spread=0.19
+MARKET DATA [TSLA]:  Best Bid=98.76,  Best Ask=99.92,  Spread=1.16
+MARKET DATA [AMZN]:  Best Bid=97.53,  Best Ask=101.04, Spread=3.51
+
+TRADE EXECUTED: Trade{id='f5fd6a02', symbol='AAPL', price=100.82, qty=36,  buyer='TRADER02', seller='TRADER07'} (Total trades: 148, Total volume: 41051)
 TRADE EXECUTED: Trade{id='811ae976', symbol='AAPL', price=100.75, qty=175, buyer='TRADER01', seller='TRADER07'} (Total trades: 149, Total volume: 41226)
+
 Executed 2 trades for symbol AAPL
+
 TRADE EXECUTED: Trade{id='199ccf4b', symbol='MSFT', price=100.49, qty=165, buyer='TRADER01', seller='TRADER10'} (Total trades: 150, Total volume: 41391)
-TRADE EXECUTED: Trade{id='d99612bd', symbol='MSFT', price=100.10, qty=97, buyer='TRADER08', seller='TRADER10'} (Total trades: 151, Total volume: 41488)
+TRADE EXECUTED: Trade{id='d99612bd', symbol='MSFT', price=100.10, qty=97,  buyer='TRADER08', seller='TRADER10'} (Total trades: 151, Total volume: 41488)
+```
