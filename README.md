@@ -34,8 +34,6 @@ This project is a simple multi-threaded order matching engine simulation written
 ## Example Output
 
 ```
-Executed 1 trades for symbol AMZN
-
 MARKET DATA [MSFT]:  Best Bid=100.49, Best Ask=102.61, Spread=2.12
 MARKET DATA [GOOGL]: Best Bid=100.04, Best Ask=101.17, Spread=1.13
 MARKET DATA [AAPL]:  Best Bid=100.82, Best Ask=101.01, Spread=0.19
